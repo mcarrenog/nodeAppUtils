@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "resolveJsonModule": false,
+      "module": "commonjs",
+      "declaration": true,
+      "esModuleInterop": true,
+      "target": "es2015",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*"]
+      },
+      "types": ["node"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["__tests__"]
+  }
+  

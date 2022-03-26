@@ -1,0 +1,46 @@
+{
+  "name": "nodeapputils",
+  "version": "1.0.0",
+  "description": "Utilidades utilizadas por nodeApp",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcarrenog/nodeAppUtils.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "mcarrenog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcarrenog/nodeAppUtils/issues"
+  },
+  "homepage": "https://github.com/mcarrenog/nodeAppUtils#readme",
+  "peerDependencies": {
+    "@google-cloud/pubsub": "^2.18.4",
+    "winston": "^3.3.3",
+    "redis": "^4.0.1",
+    "json-refs": "^3.0.15"
+  },
+  "devDependencies": {
+    "json-refs": "^3.0.15",
+    "@google-cloud/pubsub": "^2.18.4",
+    "winston": "^3.3.3",
+    "redis": "^4.0.1",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  }
+}
